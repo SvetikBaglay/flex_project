@@ -1,0 +1,92 @@
+.what .what__info-items {
+  display: block;
+  padding: 1 rem;
+}
+
+
+/* Align icon to left */
+.what  .what__info-items .what__info-text {
+  display: flex;
+  text-align: left;
+}
+
+.what__info-text {
+  padding-top: 1rem;
+  margin: 0.75rem;
+}
+
+/* Position icon */
+.what .what__info-items .what__info-text i {
+  margin-right: 1.3rem;
+  align-self: center;
+  margin-bottom: 0;
+}
+
+/* Smartphones */
+
+@media(max-width: 500px){
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar__logo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  .navbar ul {
+    padding: 0.5rem;
+  }
+
+  .header .header__content {
+    top: 110px;
+  }
+
+  .who {
+    display: block;
+  }
+
+  .who__img {
+    display: none;
+  }
+
+  .clients .clients__box-logo img {
+    width: 80%;
+  }
+
+  .clients .clients__box-logo div:last-child {
+    display: none;
+  }
+
+  .contact {
+    flex-direction: column;
+    display: block;
+  }
+
+  .contact .contact__map {
+    height: 200px;
+    border-top: 4px solid #333;
+  }
+}
+
+@media(max-height: 568px) {
+
+  .header__content {
+    margin-top: -2;
+    top: 140px;
+  }
+
+  .header__content-heading {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .header__content-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 0.75rem;
+  }
+
+}

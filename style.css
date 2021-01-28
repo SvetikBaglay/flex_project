@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+}
+
+.navbar {
+  display: flex;
+  position: sticky;
+  top:0;
+  background: #333;
+  color: #fff;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 1rem;
+}
+
+.navbar__logo {
+  font-size: 1.45em;
+}
+.navbar__logo-text {
+  color: #93cb52;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar ul li a {
+  color: #fff;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  background: #93cb52;
+  border-radius: 5px;
+}
+
+/* Header */
+
+.header {
+  background: #333 url("../flex_project/img/showcase.jpg") no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+  position: absolute;
+  top: 64px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.header__content-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.header__content-text {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  margin-top: 0.75rem;
+}
+
+.header__content-btn {
+  padding: 0.5rem 2rem;
+  background-color: #93cb52;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__content-btn:hover {
+  background: #7ab436;
+
+}
+
+/* What */
+.what {
+  background: #f4f4f4;
+  padding: 1.5rem 0;
+  color: #333;
+}
+
+.what__info {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.what__info-heading {
+  text-align: center;
+  margin-bottom: 0.75rem;
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+.what__heading-text {
+  color: #93cb52;
+}
+
+.what__info-items {
+  display: flex;
+  padding: 1rem;
+}
+
+.what__info-text {
+  padding: 1rem;
+  flex: 1;
+  text-align: center;
+}
+
+.what__info-top {
+  margin-bottom: 12px;
+}
+
+.what.what__info-items.what__info-text {
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+.what__info-items i {
+  background: #93cb52;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-right: 1.3rem;
+  align-self: center;
+}
+
+/*Who*/
+.who {
+  display: flex;
+}
+
+.who div {
+  flex: 1;
+}
+
+.who .who__img {
+  background: url("../flex_project/img/people.jpg") no-repeat center center/cover;
+}
+
+.who__info {
+  background: #333;
+  color: #fff;
+  padding: 2rem;
+}
+
+.who__info-text {
+  color: #93cb52;
+}
+
+.who__info h2 {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.who__info p {
+  margin: 0.75rem 0;
+}
+
+.who__info-list {
+  list-style: none;
+  margin: 0.5rem 0;
+}
+
+.who__info-list li {
+  border-bottom: #444 dotted 1px;
+  padding: 0.5rem 0;
+}
+
+/* Clients */
+
+.clients {
+  padding: 1.5rem 0;
+}
+
+.clients__box {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.clients__box-heading-text {
+  color: #93cb52;
+}
+.clients__box-heading {
+  text-align: center;
+  line-height: 1.1;
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.clients__box-logo {
+  display: flex;
+  padding: 1.5rem 0;
+}
+
+.clients__box-logo img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+/* Contact */
+
+.contact {
+  display: flex;
+  flex: 1;
+}
+
+.contact__info {
+  background: #93cb52;
+  color: #fff;
+  padding: 2rem;
+  flex: 1;
+}
+
+.contact__info-text {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.contact__info p {
+  margin: 0.75rem 0;
+}
+
+.contact__info-form {
+  margin: 0.75rem;
+}
+
+.contact__info-form label {
+  display: block;
+}
+
+.contact__info-form input,
+.contact__info-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.contact__info-btn {
+  width: 100%;
+  padding: 0.5rem;
+  background: #333;
+  color: #fff;
+  display: inline-block;
+  border-radius: 5px;
+  border: none;
+}
+
+.contact__info-btn:hover {
+  background: #7ab436;
+}
+
+.contact__map {
+  flex: 1;
+}
+
+.footer {
+  background: #333;
+  color: #fff;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.footer__box {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.footer__box p {
+  margin: 0.75rem 0;
+}

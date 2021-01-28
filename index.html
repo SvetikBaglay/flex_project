@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
+  <link rel="stylesheet" media="screen and (min-width: 1100px)" href="widescreen.css">
+  <link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.css">
+  <title>Edge-Finan</title>
+</head>
+<body class="home" id="home">
+  <nav class="navbar">
+    <h1 class="navbar__logo">
+      <span class="navbar__logo-text">
+        <i class="fas fa-book-open"></i> Edge</span>Ledger
+    </h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#what">What</a></li>
+      <li><a href="#who">Who</a></li>
+      <li><a href="#clients">Contact</a></li>
+    </ul>
+  </nav>
+  <header class="header">
+    <div class="header__content">
+      <h1 class="header__content-heading">The Sky Is The Limit</h1>
+      <p class="header__content-text">Lorem ipsum dolor sit amet consectetur
+        adipisicing elit.Quae voluptatibus debitis praesentium inventore, eum deserunt.
+      </p>
+      <a href="#what" class="header__content-btn">Read More</a>
+    </div>
+  </header>
+    <div class="what" id="what">
+      <div class="what__info">
+        <h2 class="what__info-heading">
+          <span class="what__heading-text">What</span> We Do
+        </h2>
+        <div class="what__info-items">
+          <div class="what__info-text">
+            <i class="fas fa-university fa-2x"></i>
+            <div>
+              <h3 class="what__info-top">Investment Banking</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Architecto, voluptatum!</p>
+            </div>
+          </div>
+          <div class="what__info-text">
+            <i class="fas fa-book-reader fa-2x"></i>
+            <div>
+              <h3 class="what__info-top">Portfolio Management</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Architecto, voluptatum!</p>
+            </div>
+          </div>
+          <div class="what__info-text">
+            <i class="fas fa-pencil-alt fa-2x"></i>
+            <div>
+              <h3 class="what__info-top">Tax & Custodial</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Architecto, voluptatum!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="who" id="who">
+      <div class="who__img"></div>
+      <div class="who__info">
+        <h2><span class="who__info-text">Who</span> We Are</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+           culpa harum voluptas ratione enim consequuntur illo, atque, aut
+           doloribus unde repellendus sit delectus beatae aspernatur placeat
+           corrupti. Ipsa, itaque quas.
+        </p>
+        <h3>Our Team</h3>
+        <ul class="who__info-list">
+          <li>Mark Smith: CEO</li>
+          <li>Shannon Johnson: CFO</li>
+          <li>John Corbit: Lead Accountant</li>
+          <li>Janet Williams: Investment Manager</li>
+          <li>Kara Jackson: Senior Accountant</li>
+        </ul>
+      </div>
+    </div>
+    <div class="clients" id="clients">
+      <div class="clients__box">
+        <h2 class="clients__box-heading">
+          <span class="clients__box-heading-text">Our</span> Clients</h2>
+        <div class="clients__box-logo">
+          <div><img src="./img/logos/logo1.png" alt="Client"></div>
+          <div><img src="./img/logos/logo2.png" alt="Client"></div>
+          <div><img src="./img/logos/logo3.png" alt="Client"></div>
+          <div><img src="./img/logos/logo4.png" alt="Client"></div>
+          <div><img src="./img/logos/logo5.png" alt="Client"></div>
+        </div>
+      </div>
+    </div>
+    <div class="contact">
+      <div class="contact__info">
+        <h2 class="contact__info-text">Contact Us</h2>
+        <p>Please use the form below to contact us</p>
+        <form>
+          <div class="contact__info-form">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Name">
+          </div>
+          <div class="contact__info-form">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Enter Email">
+          </div>
+          <div class="contact__info-form">
+            <label for="phone">Phone Number</label>
+            <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+          </div>
+          <div class="contact__info-form">
+            <label for="text">Message</label>
+            <textarea name="Message" id="message" placeholder="Enter Message"></textarea>
+          </div>
+          <input type="submit" value="Send" class="contact__info-btn">
+        </form>
+      </div>
+      <div class="contact__map"></div>
+    </div>
+  <footer class="footer">
+    <div class="footer__box">
+      <p>Copyright &copy; 2019, EdgeLedger, All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+  <script src="./js/main.js"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCR-yFAK3PGUoBuvyKG7En0nIx1eyh9Rtk&callback=initMap"
+    async defer></script>
+</body>
+</html>
+
+AIzaSyCR-yFAK3PGUoBuvyKG7En0nIx1eyh9Rtk

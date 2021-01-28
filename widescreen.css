@@ -1,0 +1,16 @@
+/* Align icon to left */
+.what .what__info-items .what__info-text {
+  display: flex;
+  text-align: left;
+}
+
+/* Position icon */
+.what .what__info-items .what__info-text i {
+  margin-right: 1.3rem;
+  align-self: center;
+  margin-bottom: 0;
+}
+
+.contact .contact__map {
+  flex: 2;
+}
